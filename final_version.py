@@ -3,6 +3,15 @@ from typing import Optional
 #computer class
 class Computer:
 
+    #attributes
+    description: str
+    processor_type: str
+    hard_drive_capacity: int 
+    memory: int
+    operating_system: str
+    year_made: int
+    price: int
+
     #initializing attributes of the computer
     def __init__(self, description: str, processor_type: str, hard_drive_capacity: int, 
                  memory: int, operating_system: str, year_made: int, price: int):
